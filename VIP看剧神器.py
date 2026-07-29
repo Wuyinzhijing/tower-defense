@@ -38,7 +38,7 @@ class VIPVideoApp:
         button_movie.place(x=325, y=80, width=125, height=40)
 
 
-        self.root.resizable()
+        self.root.resizable(False, False)
 
 
     def open_iqy(self):
